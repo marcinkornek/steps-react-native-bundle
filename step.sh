@@ -144,7 +144,7 @@ fi
 
 set -x
 
-react-native bundle $ENTRY_FILE_OPTION \
+npx react-native bundle $ENTRY_FILE_OPTION \
     $PLATFORM_OPTION \
     $BUNDLE_OUTPUT_OPTION \
 		$DEV_OPTION \
